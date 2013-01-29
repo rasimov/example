@@ -1,0 +1,6 @@
+
+RewriteEngine on
+Options FollowSymLinks
+
+RewriteRule (.*)/$ index.php?option=$1 [L]
+ 
